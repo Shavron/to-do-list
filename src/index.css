@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.todo-list{
+  max-width: 300px;
+}
+input[type="radio"], input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
