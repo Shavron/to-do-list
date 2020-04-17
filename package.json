@@ -2,6 +2,11 @@
   "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
+  "description": "React To Do List (Functional Component)",
+  "engines": {
+    "node": "  13.2.0",
+    "npm": "6.13.4"
+  },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.12.0",
