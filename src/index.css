@@ -5,18 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 20px;
+  text-transform: capitalize;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.todo-list{
-  max-width: 300px;
+.todo-list {
+  /* max-width: 300px; */
+  padding: 20px 43px;
 }
-input[type="radio"], input[type="checkbox"]{
+input[type="radio"],
+input[type="checkbox"] {
   width: 20px;
   height: 20px;
   margin-right: 20px;
+  vertical-align: middle;
+}
+.title {
+  width: 100%;
+  background-color: #ccc;
+  text-align: center;
+  padding: 7px 0;
+  font-family: sans-serif;
+}
+.animate-in {
+  animation: fade-slide 1.5s forwards;
+}
+h1,
+.h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  width: 100%;
+  background: #eee;
+  padding: 11px 0px 11px 11px;
+}
+button {
+  vertical-align: middle;
+  border: none;
+  position: absolute;
+  right: 10px;
+  background: #ccc;
 }
